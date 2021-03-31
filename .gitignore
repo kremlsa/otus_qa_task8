@@ -1,11 +1,54 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.db
+*.app
+*.exe
+
+# Maven
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+dist/
+
+# Java
+*.class
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+# Tests
+TEST*.xml
+
+# Directories
+bin/
+deploy/
+
+# Logs
+*.log
+log/
+logs/
+
+# Others
+*.*~
+*~
+.merge_file*
+
+# wrappers
+!maven-wrapper.jar
