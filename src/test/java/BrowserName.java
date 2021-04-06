@@ -1,6 +1,7 @@
 public enum BrowserName {
 
     CHROME("chrome"),
+    HEADLESS("headless"),
     FIREFOX("firefox"),
     OPERA("opera"),
     DEFAULT("firefox");
